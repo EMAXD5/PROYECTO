@@ -44,7 +44,6 @@ El programa integra diversas **estructuras de datos** (arreglos dinámicos, pila
 
 
    Compilar el proyecto
-
 g++ -std=c++17 -O2 main.cpp -o agenda
 
 Ejecutar el programa
