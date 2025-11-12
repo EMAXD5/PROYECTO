@@ -41,3 +41,14 @@ El programa integra diversas **estructuras de datos** (arreglos dinámicos, pila
    ```bash
    git clone https://github.com/usuario/gestor-contactos-cpp.git
    cd gestor-contactos-cpp
+
+
+   Compilar el proyecto
+
+g++ -std=c++17 -O2 main.cpp -o agenda
+
+Ejecutar el programa
+./agenda
+🪪 Licencia
+
+Este proyecto se distribuye bajo la licencia MIT, lo que permite su uso, modificación y distribución con fines educativos o personales.
