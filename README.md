@@ -37,12 +37,12 @@ El programa integra diversas **estructuras de datos** (arreglos dinámicos, pila
 
 ## 🧰 Instrucciones de Instalación
 
-1. **Clonar el repositorio**
-   ```bash
-   git clone https://github.com/EMAXD5/PROYECTO.git
-   cd PROYECTO
-g++ -std=c++17 proyecto.cpp -o agenda
-./agenda
+1. Ingresa a [proyecto.cpp](./proyecto.cpp)
+2. Haz clic en el botón **“Copy raw contents”** 📋
+3. Pega el contenido en tu editor de C++
+4. Compila.
+ 
+
 
 
 Este proyecto se distribuye bajo la licencia MIT, lo que permite su uso, modificación y distribución con fines educativos o personales.
