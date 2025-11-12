@@ -1,4 +1,4 @@
-# 📇 Gestor de Agenda de Contactos en C++
+# 📇 Gestor de Agenda de Contactos en c++
 
 ## 🧩 Descripción del Proyecto
 El **Gestor de Agenda de Contactos** es un sistema desarrollado en **C++** que permite registrar, buscar, mostrar y eliminar contactos desde memoria.  
