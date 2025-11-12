@@ -30,7 +30,7 @@ static string toLower(const string& s) {
 }
 
 /* =========================
-   ARREGLO DINÁMICO (ArrayList)
+   ARREGLO DINÃMICO (ArrayList)
    ========================= */
 class DynamicArray {
     Contact* data;
@@ -59,7 +59,7 @@ public:
         data[_size++] = c;
     }
 
-    // elimina en posición i y compacta
+    // elimina en posiciÃ³n i y compacta
     Contact removeAt(size_t i) {
         if (i >= _size) throw runtime_error("Indice invalido");
         Contact removed = data[i];
@@ -80,7 +80,7 @@ public:
             });
     }
 
-    // BÚSQUEDA SECUENCIAL
+    // BÃšSQUEDA SECUENCIAL
     vector<size_t> linearSearchByName(const string& name) {
         vector<size_t> idx;
         string key = toLower(name);
@@ -97,9 +97,9 @@ public:
         return idx;
     }
 
-    // BÚSQUEDA BINARIA (requiere orden)
-    int binarySearchByName(const string& name) { // devuelve índice o -1
-        // Asegúrate de haber llamado sortByName() antes de usarla
+    // BÃšSQUEDA BINARIA (requiere orden)
+    int binarySearchByName(const string& name) { // devuelve Ã­ndice o -1
+        // AsegÃºrate de haber llamado sortByName() antes de usarla
         string key = toLower(name);
         int l = 0, r = (int)_size - 1;
         while (l <= r) {
@@ -209,7 +209,7 @@ public:
 };
 
 /* =========================
-   ÁRBOL BINARIO DE BÚSQUEDA (por nombre)
+   ÃRBOL BINARIO DE BÃšSQUEDA (por nombre)
    ========================= */
 struct BSTNode {
     Contact c;
@@ -283,7 +283,7 @@ void printList(const DynamicArray& arr) {
 }
 
 /* =========================
-   APLICACIÓN (MENÚ)
+   APLICACIÃ“N (MENÃš)
    ========================= */
 int main() {
     ios::sync_with_stdio(false);
